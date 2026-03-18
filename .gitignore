@@ -1,0 +1,34 @@
+# 1. EXCLUIR DEPENDENCIAS (Lo más importante)
+node_modules/
+node_modules
+.pnp
+.pnp.js
+
+# 2. EXCLUIR ARCHIVOS DE CONSTRUCCIÓN Y CACHÉ
+dist/
+dist-ssr/
+.parcel-cache
+.turbo
+.next
+.nuxt
+
+# 3. EXCLUIR LOGS
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 4. EXCLUIR CONFIGURACIÓN DE EDITOR
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 5. EXCLUIR VARIABLES DE ENTORNO
+.env
+.env.local
+*.local
